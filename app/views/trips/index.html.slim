@@ -1,2 +1,15 @@
-h1 Trips#index
-p Find me in app/views/trips/index.html.slim
+h1 どこに行きたい？
+p 地図から探す
+
+p 検索する
+
+= search_form_for @search do |f|
+  .form-group.row
+    = f.label :name_cont, '名称', class: 'col-sm-2 col-form-label'
+    .col-sm-10
+      = f.search_field :title, class: 'form-control'
+  .form-group
+    = f.submit class: 'btn btn-outline-primary'
+
+p 貴方の旅を投稿する
+= link_to "投稿はこちらから", new_trip_path

@@ -20,8 +20,7 @@
 
 $(function () {
     $('.tohoku').click(function () {
-        $('.smallmap').show();
-        $('#tohokumap').show();
+        $('#tohokumap .smallmap').show();
         $('.bigmap').hide();
     });
 });
@@ -67,14 +66,6 @@ $(function () {
     $('.tyugoku').click(function () {
         $('.smallmap').show();
         $('#tyugokumap').show();
-        $('.bigmap').hide();
-    });
-});
-
-$(function () {
-    $('.').click(function () {
-        $('.smallmap').show();
-        $('#map').show();
         $('.bigmap').hide();
     });
 });

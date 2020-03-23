@@ -97,3 +97,37 @@
   top: 220px;
   left: 100px;
 }
+
+.smallmap {
+  padding: 10px 10px;
+  border: 1px solid black;
+  display: block;
+  position: absolute;
+  display: none;
+}
+.tohokumap {
+  display: none;
+}
+.kantomap {
+  display: none;
+}
+
+.hokurikumap {
+  display: none;
+}
+
+.tyubumap {
+  display: none;
+}
+.kansaimap {
+  display: none;
+}
+.shikokumap {
+  display: none;
+}
+.tyugokumap {
+  display: none;
+}
+.kyusyumap {
+  display: none;
+}
